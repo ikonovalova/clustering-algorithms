@@ -1,7 +1,6 @@
 # clustering-algorithms
 
 ### Description
-See dataset description in dataset folder.
 
 * load_and_report.py - add markers for clean text. If there was a marker before, it saves it
 ```sh
