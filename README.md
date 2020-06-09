@@ -1,36 +1,43 @@
 # clustering-algorithms
 
+During software product lifecycle, the software documentation of changes significantly. Copy-pasting and partial modifications of replicated text fragments increase number of errors and mismatchings. Tracking such changes allows increasing the quality of documentation significantly. The main topic of this exepiments is to study the application of different word embeddings and clustering algorithms in the field of near duplicates in the software documentation.
+
 ### Description
 
-* load_and_report.py - add markers for clean text. If there was a marker before, it saves it
-```sh
-python load_and_report.py XXXX.clean.markdown XXXXX.tmp.markdown
-```
+<img src="img/workflow-eng.png" alt="workflow" width="350" height="250">
+
 * jd2md.py - create markdown from Javadoc
 ```sh
 jd2md.py . XXXXX.clean.markdown
+```
+* load_and_report.py - add markers for clean text. If there was a marker before, it saves it
+```sh
+python load_and_report.py XXXX.clean.markdown XXXXX.tmp.markdown
 ```
 * _I_marked2csv.py - create csv file from markdown with markers for clustering. If fragments of text are marked with a marker as a duplicate, then they will be marked with one number in csv. If the text fragment does not have a duplicate, it will be assigned a negative number.
 ```sh
 python _I_marked2csv.py XXXXX.tmp.markdown XXXXX.csv
 ```
-* _I_gridmertxt2md.py - from txt file documentation to markdawn
+* _I_gridmertxt2md.py - from txt file documentation to markdown
 ```sh
 python _I_gridmertxt2md.py XXX.txt XXXXX.markdown
 ```
-* _I_scv2marked.py - from scv cluster file to markdawn for DF
+* _I_csv2marked.py - from csv cluster file to markdown for DF
 ```sh
-python _I_scv2marked.py XXX.scv XXXXX.markdown
+python _I_csv2marked.py XXX.csv XXXXX.markdown
 ```
 
 ### Experiments
 
 * Clustering.ipynb - clustering data experiments. To start create a csv marked file with _I_marked2csv.py
-* Embed_docs.ipynb - experiments with embeddings for each benchmarking documents. 
+* Embed_docs.ipynb - experiments with embeddings for each benchmarking documents 
 * Embed_dataset.ipynb - experiments with embeddings for dataset what include data from all benchmarking documents. 
 * getTime.ipynb - experiments of time evaluation.
 
+### Visualization
 
+<img src="img/DF-example.png" alt="visualization" width="800" height="500">
+For visualization use the Duplicate Finder tool https://docline.github.io/index.en. The file received after clustering is fed to the input of DF. Create cluster .csv file (def create_csv) after clustering and use _I_csv2marked.py to create an input markdown.
 
 ### Data
 For the experiments were used labeled documents.
