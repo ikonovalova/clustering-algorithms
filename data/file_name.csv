@@ -1,0 +1,1004 @@
+text,num,cluster
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",0,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",3,1
+"
+Create a marker which is detached (even at birth) from this IMarkerFactory.
+@param name marker name
+@return a dangling marker
+@since 1.5.1
+",8,25
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",9,1
+"
+Return the name of this <code>Logger</code> instance.
+@return name of this logger instance
+",12,94
+"Is the logger instance enabled for the TRACE level?
+@return True if this Logger is enabled for the TRACE level,
+false otherwise.
+@since 1.4",13,20
+"Log a message at the TRACE level.
+@param msg the message string to be logged
+@since 1.4",14,16
+"Log a message at the TRACE level according to the specified format
+and argument.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the TRACE level. </p>
+@param format the format string
+@param arg    the argument
+@since 1.4",15,4
+"Log a message at the TRACE level according to the specified format
+and arguments.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the TRACE level. </p>
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument
+@since 1.4",16,62
+"Log an exception (throwable) at the TRACE level with an
+accompanying message.
+@param msg the message accompanying the exception
+@param t   the exception (throwable) to log
+@since 1.4",18,6
+"Similar to {@link #isTraceEnabled()} method except that the
+marker data is also taken into account.
+@param marker The marker data to take into consideration
+@return True if this Logger is enabled for the TRACE level,
+false otherwise.
+@since 1.4",19,19
+"
+Log a message with the specific Marker at the TRACE level.
+@param marker the marker data specific to this log statement
+@param msg    the message string to be logged
+@since 1.4
+",20,13
+"This method is similar to {@link #trace(String, Object)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg    the argument
+@since 1.4",21,56
+"This method is similar to {@link #trace(String, Object, Object)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument
+@since 1.4",22,30
+"This method is similar to {@link #trace(String, Object...)}
+method except that the marker data is also taken into
+consideration.
+@param marker   the marker data specific to this log statement
+@param format   the format string
+@param argArray an array of arguments
+@since 1.4",23,3
+"
+This method is similar to {@link #trace(String, Throwable)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param msg    the message accompanying the exception
+@param t      the exception (throwable) to log
+@since 1.4
+",24,22
+"Is the logger instance enabled for the DEBUG level?
+@return True if this Logger is enabled for the DEBUG level,
+false otherwise.",25,20
+"Log a message at the DEBUG level.
+@param msg the message string to be logged",26,16
+"Log a message at the DEBUG level according to the specified format
+and argument.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the DEBUG level. </p>
+@param format the format string
+@param arg    the argument",27,4
+"Log a message at the DEBUG level according to the specified format
+and arguments.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the DEBUG level. </p>
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",28,62
+"Log an exception (throwable) at the DEBUG level with an
+accompanying message.
+@param msg the message accompanying the exception
+@param t   the exception (throwable) to log",30,6
+"Similar to {@link #isDebugEnabled()} method except that the
+marker data is also taken into account.
+@param marker The marker data to take into consideration
+@return True if this Logger is enabled for the DEBUG level,
+false otherwise.",31,19
+"Log a message with the specific Marker at the DEBUG level.
+@param marker the marker data specific to this log statement
+@param msg    the message string to be logged",32,13
+"
+This method is similar to {@link #debug(String, Object)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg    the argument
+",33,56
+"This method is similar to {@link #debug(String, Object, Object)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",34,30
+"This method is similar to {@link #debug(String, Object...)}
+method except that the marker data is also taken into
+consideration.
+@param marker    the marker data specific to this log statement
+@param format    the format string
+@param arguments a list of 3 or more arguments",35,3
+"This method is similar to {@link #debug(String, Throwable)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param msg    the message accompanying the exception
+@param t      the exception (throwable) to log",36,22
+"Is the logger instance enabled for the INFO level?
+@return True if this Logger is enabled for the INFO level,
+false otherwise.",37,20
+"Log a message at the INFO level.
+@param msg the message string to be logged",38,16
+"Log a message at the INFO level according to the specified format
+and argument.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the INFO level. </p>
+@param format the format string
+@param arg    the argument",39,4
+"Log a message at the INFO level according to the specified format
+and arguments.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the INFO level. </p>
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",40,62
+"Log an exception (throwable) at the INFO level with an
+accompanying message.
+@param msg the message accompanying the exception
+@param t   the exception (throwable) to log",42,6
+"Similar to {@link #isInfoEnabled()} method except that the marker
+data is also taken into consideration.
+@param marker The marker data to take into consideration
+@return true if this logger is warn enabled, false otherwise",43,19
+"Log a message with the specific Marker at the INFO level.
+@param marker The marker specific to this log statement
+@param msg    the message string to be logged",44,13
+"This method is similar to {@link #info(String, Object)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg    the argument",45,56
+"This method is similar to {@link #info(String, Object, Object)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",46,30
+"This method is similar to {@link #info(String, Object...)}
+method except that the marker data is also taken into
+consideration.
+@param marker    the marker data specific to this log statement
+@param format    the format string
+@param arguments a list of 3 or more arguments",47,3
+"This method is similar to {@link #info(String, Throwable)} method
+except that the marker data is also taken into consideration.
+@param marker the marker data for this log statement
+@param msg    the message accompanying the exception
+@param t      the exception (throwable) to log",48,22
+"Is the logger instance enabled for the WARN level?
+@return True if this Logger is enabled for the WARN level,
+false otherwise.",49,20
+"Log a message at the WARN level.
+@param msg the message string to be logged",50,16
+"Log a message at the WARN level according to the specified format
+and argument.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the WARN level. </p>
+@param format the format string
+@param arg    the argument",51,4
+"Log a message at the WARN level according to the specified format
+and arguments.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the WARN level. </p>
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",53,62
+"Log an exception (throwable) at the WARN level with an
+accompanying message.
+@param msg the message accompanying the exception
+@param t   the exception (throwable) to log",54,6
+"Similar to {@link #isWarnEnabled()} method except that the marker
+data is also taken into consideration.
+@param marker The marker data to take into consideration
+@return True if this Logger is enabled for the WARN level,
+false otherwise",55,19
+"Log a message with the specific Marker at the WARN level.
+@param marker The marker specific to this log statement
+@param msg    the message string to be logged",56,13
+"This method is similar to {@link #warn(String, Object)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg    the argument",57,56
+"This method is similar to {@link #warn(String, Object, Object)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",58,30
+"This method is similar to {@link #warn(String, Object...)}
+method except that the marker data is also taken into
+consideration.
+@param marker    the marker data specific to this log statement
+@param format    the format string
+@param arguments a list of 3 or more arguments",59,3
+"This method is similar to {@link #warn(String, Throwable)} method
+except that the marker data is also taken into consideration.
+@param marker the marker data for this log statement
+@param msg    the message accompanying the exception
+@param t      the exception (throwable) to log",60,22
+"Is the logger instance enabled for the ERROR level?
+@return True if this Logger is enabled for the ERROR level,
+false otherwise.",61,20
+"Log a message at the ERROR level.
+@param msg the message string to be logged",62,16
+"Log a message at the ERROR level according to the specified format
+and argument.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the ERROR level. </p>
+@param format the format string
+@param arg    the argument",63,4
+"Log a message at the ERROR level according to the specified format
+and arguments.
+<p/>
+<p>This form avoids superfluous object creation when the logger
+is disabled for the ERROR level. </p>
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",64,62
+"Log an exception (throwable) at the ERROR level with an
+accompanying message.
+@param msg the message accompanying the exception
+@param t   the exception (throwable) to log",66,6
+"Similar to {@link #isErrorEnabled()} method except that the
+marker data is also taken into consideration.
+@param marker The marker data to take into consideration
+@return True if this Logger is enabled for the ERROR level,
+false otherwise.",67,19
+"Log a message with the specific Marker at the ERROR level.
+@param marker The marker specific to this log statement
+@param msg    the message string to be logged",68,13
+"This method is similar to {@link #error(String, Object)} method except that the
+marker data is also taken into consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg    the argument",69,56
+"This method is similar to {@link #error(String, Object, Object)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param format the format string
+@param arg1   the first argument
+@param arg2   the second argument",70,30
+"This method is similar to {@link #error(String, Object...)}
+method except that the marker data is also taken into
+consideration.
+@param marker    the marker data specific to this log statement
+@param format    the format string
+@param arguments a list of 3 or more arguments",71,3
+"This method is similar to {@link #error(String, Throwable)}
+method except that the marker data is also taken into
+consideration.
+@param marker the marker data specific to this log statement
+@param msg    the message accompanying the exception
+@param t      the exception (throwable) to log",72,22
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",73,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",81,1
+"
+An adapter to remove the key when done.
+",83,0
+"
+As of SLF4J version 1.7.14, StaticMDCBinder classes shipping in various bindings
+come with a getSingleton() method. Previously only a public field called SINGLETON
+was available.
+@return MDCAdapter
+@throws NoClassDefFoundError in case no binding is available
+@since 1.7.14
+",84,44
+"
+Clear all entries in the MDC of the underlying implementation.
+",89,81
+"
+Return a copy of the current thread's context map, with keys and values of
+type String. Returned value may be null.
+@return A copy of the current thread's context map. May be null.
+@since 1.5.1
+",90,31
+"Set the current thread's context map by first clearing any existing map and
+then copying the map passed as parameter. The context map passed as
+parameter must only contain keys and values of type String.
+@param contextMap
+must contain only keys and values of type String
+@since 1.5.1",91,12
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",93,1
+"
+This constant represents any marker, including a null marker.
+",95,66
+"
+This constant represents any non-null marker.
+",96,66
+"
+Get the name of this Marker.
+@return name of marker
+",97,94
+"
+@deprecated Replaced by {@link #hasReferences()}.
+",100,0
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",107,1
+"
+As of SLF4J version 1.7.14, StaticMarkerBinder classes shipping in various bindings
+come with a getSingleton() method. Previously only a public field called SINGLETON
+was available.
+@return IMarkerFactory
+@throws NoClassDefFoundError in case no binding is available
+@since 1.7.14
+",109,44
+"
+Create a marker which is detached (even at birth) from the MarkerFactory.
+@param name the name of the marker
+@return a dangling marker
+@since 1.5.1
+",111,25
+"
+@author ceki
+@since 1.7.15
+",113,63
+"
+Returns the string representation of this Level.
+",114,18
+"
+@author ceki
+@since 1.7.15
+",115,63
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",116,1
+Get the context identified by the <code>key</code> parameter.,119,87
+Remove the the context identified by the <code>key</code> parameter.,120,87
+"
+Clear all entries in the MDC.
+",121,81
+"
+Return a copy of the current thread's context map.
+Returned value may be null.
+",123,0
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",124,1
+"
+A simple implementation of the {@link Marker} interface.
+@author Ceki G&uuml;lc&uuml;
+@author Joern Huxhorn
+",125,63
+"
+This method is mainly used with Expression Evaluators.
+",126,0
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",127,1
+"
+Does the name marked already exist?
+",131,0
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",132,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",134,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",136,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",140,1
+"
+A direct NOP (no operation) implementation of {@link Logger}.
+@author Ceki G&uuml;lc&uuml;
+",141,63
+"
+The unique instance of NOPLogger.
+",142,18
+"
+Always returns the string value ""NOP"".
+",144,0
+"Always returns false.
+@return always false",145,51
+A NOP implementation.,146,0
+A NOP implementation.,147,0
+A NOP implementation.,148,0
+A NOP implementation.,149,0
+A NOP implementation.,150,0
+"Always returns false.
+@return always false",151,51
+A NOP implementation.,152,0
+A NOP implementation.,153,0
+A NOP implementation.,154,0
+A NOP implementation.,155,0
+A NOP implementation.,156,0
+"Always returns false.
+@return always false",157,51
+A NOP implementation.,158,0
+A NOP implementation.,159,0
+A NOP implementation.,160,0
+A NOP implementation.,161,0
+A NOP implementation.,162,0
+"Always returns false.
+@return always false",163,51
+A NOP implementation.,164,0
+A NOP implementation.,165,0
+A NOP implementation.,166,0
+A NOP implementation.,167,0
+A NOP implementation.,168,0
+A NOP implementation.,169,0
+A NOP implementation.,170,0
+A NOP implementation.,171,0
+A NOP implementation.,172,0
+A NOP implementation.,173,0
+A NOP implementation.,174,0
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",175,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",177,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",179,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",182,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",186,1
+"
+SubstituteLoggerFactory manages instances of {@link SubstituteLogger}.
+@author Ceki G&uuml;lc&uuml;
+@author Chetan Mehrotra
+",187,63
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",188,1
+"
+An internal utility class.
+@author Alexander Dorokhine
+@author Ceki G&uuml;lc&uuml;
+",189,63
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",192,1
+"The binding of {@link org.slf4j.LoggerFactory} class with an actual instance of
+{@link ILoggerFactory} is performed using information returned by this class.
+This class is meant to provide a dummy StaticLoggerBinder to the slf4j-api module.
+Real implementations are found in  each SLF4J binding project, e.g. slf4j-nop,
+slf4j-log4j12 etc.
+@author Ceki G&uuml;lc&uuml;",193,17
+"
+The unique instance of this class.
+",194,18
+"
+Return the singleton of this class.
+@return the StaticLoggerBinder singleton
+",195,57
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",197,1
+"
+The unique instance of this class.
+",199,18
+"
+Return the singleton of this class.
+@return the StaticMDCBinder singleton
+@since 1.7.14
+",200,57
+"
+Currently this method always returns an instance of
+{@link StaticMDCBinder}.
+",201,85
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",202,1
+"The binding of {@link MarkerFactory} class with an actual instance of
+{@link IMarkerFactory} is performed using information returned by this class.
+This class is meant to provide a *dummy* StaticMarkerBinder to the slf4j-api module.
+Real implementations are found in  each SLF4J binding project, e.g. slf4j-nop,
+slf4j-simple, slf4j-log4j12 etc.
+@author Ceki G&uuml;lc&uuml;",203,17
+"
+The unique instance of this class.
+",204,18
+"
+Return the singleton of this class.
+@return the StaticMarkerBinder singleton
+@since 1.7.14
+",205,57
+"
+Currently this method always returns an instance of
+{@link BasicMarkerFactory}.
+",206,85
+"
+Currently, this method returns the class name of
+{@link BasicMarkerFactory}.
+",207,85
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",208,1
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",211,1
+"
+An internal interface which helps the static {@link org.slf4j.LoggerFactory}
+class bind with the appropriate {@link ILoggerFactory} instance.
+@author Ceki G&uuml;lc&uuml;
+",212,36
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",215,1
+"
+This interface abstracts the service offered by various MDC
+implementations.
+@author Ceki G&uuml;lc&uuml;
+@since 1.4.1
+",216,63
+"
+Clear all entries in the MDC.
+",220,81
+"
+Return a copy of the current thread's context map, with keys and
+values of type String. Returned value may be null.
+@return A copy of the current thread's context map. May be null.
+@since 1.5.1
+",221,31
+"Set the current thread's context map by first clearing any existing
+map and then copying the map passed as parameter. The context map
+parameter must only contain keys and values of type String.
+@param contextMap must contain only keys and values of type String
+@since 1.5.1",222,12
+"Copyright (c) 2004-2011 QOS.ch
+All rights reserved.
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+""Software""), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify,  merge, publish,
+distribute,  sublicense, and/or sell  copies of  the Software,  and to
+permit persons to whom the Software  is furnished to do so, subject to
+the following conditions:
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",223,1
+"
+An internal interface which helps the static {@link org.slf4j.MarkerFactory}
+class bind with the appropriate {@link IMarkerFactory} instance.
+@author Ceki G&uuml;lc&uuml;
+",224,36
