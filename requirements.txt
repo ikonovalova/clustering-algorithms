@@ -1,0 +1,7 @@
+tqdm
+pyyaml
+strsimpy
+numpy
+spacy
+networkx
+sklearn
