@@ -18,6 +18,10 @@ python _I_marked2csv.py XXXXX.tmp.markdown XXXXX.csv
 ```sh
 python _I_gridmertxt2md.py XXX.txt XXXXX.markdown
 ```
+* _I_scv2marked.py - from scv cluster file to markdawn for DF
+```sh
+python _I_scv2marked.py XXX.scv XXXXX.markdown
+```
 
 ### Experiments
 
